@@ -27,7 +27,8 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
-
+- make sure you have [node.js](https://nodejs.org/) installed version 18+
+- copy `.env.examaple` to `.env` and set environments for use
 ```bash
 $ yarn install
 ```
@@ -58,15 +59,30 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
-## Support
+## Feature
+- [x] Database. Support [MYSQL](https://www.npmjs.com/package/mysql2) and [PostgreSQL](https://www.npmjs.com/package/pg)
+- [x] Config Service [Config](https://www.npmjs.com/package/@nestjs/config)
+- [x] JWT Service [JWT](https://www.npmjs.com/package/@nestjs/jwt)
+- [x] Winston Service [Winston](https://www.npmjs.com/package/winston)
+- [x] Task Scheduling Service [Schedule](https://www.npmjs.com/package/@nestjs/schedule)
+- [x] Queue Service [Queue](https://www.npmjs.com/package/@nestjs/bull)
+- [x] File Upload [Multer](https://www.npmjs.com/package/multer)
+- [x] Rate Limiting Service [Throttler](https://www.npmjs.com/package/@nestjs/throttler)
+- [x] Helmet [Helmet](https://www.npmjs.com/package/helmet)
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Incoming Feature
+- [ ] Database support [MongoDB](https://www.npmjs.com/package/mongodb)
+- [ ] Swagger UI [Swagger](https://www.npmjs.com/package/@nestjs/swagger)
+- [ ] Internationalization/Translations (I18N) [nestjs-i18n](https://www.npmjs.com/package/nestjs-i18n).
+- [ ] Docker
+- [ ] CI (Github Actions)
+- [ ] husky
+- [ ] Git Hooks pre-commit message
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Dzaki](https://github.com/dzakiafif)
+- Linkedin - [Dzaki](https://www.linkedin.com/in/ahmad-dzaki-afif)
 
 ## License
 
