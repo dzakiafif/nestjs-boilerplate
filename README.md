@@ -69,6 +69,7 @@ $ yarn run test:cov
 - [x] File Upload [Multer](https://www.npmjs.com/package/multer)
 - [x] Rate Limiting Service [Throttler](https://www.npmjs.com/package/@nestjs/throttler)
 - [x] Helmet [Helmet](https://www.npmjs.com/package/helmet)
+- [x] Typescript schema validation [Zod](https://www.npmjs.com/package/zod)
 
 ## Incoming Feature
 - [ ] Database support [MongoDB](https://www.npmjs.com/package/mongodb)
